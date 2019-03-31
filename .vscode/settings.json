@@ -1,5 +1,5 @@
 {
     "python.linting.pylintEnabled": true,
     "python.pythonPath": "C:\\Program Files\\Python36\\python.exe",
-    "python.dataScience.jupyterServerURI": "http://localhost:8888/?token=e25c95733029e65495c032fd5b48946b610698a8df8542fd"
+    "python.dataScience.jupyterServerURI": "http://localhost:8888/?token=fb1be7a60878ca6224e27bf61b0b222560d7da2a9f4cdc31"
 }
