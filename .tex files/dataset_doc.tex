@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+% The documentation should describe about:
+% 1. The size (number of images/samples/videos) of the dataset
+% 2. Description of the dimensions of the images/videos
+% 3. In the case of different classes of images, class-wise distribution of images/videos
+% 4. In the case of classification dataset, the distribution of the labels
+% 5. Citations of the websites from where you accumulated the data. In case you have acquired data from random
+% Internet/real life sources, explicitly mention them.
+% 6. Link to the Google drive/dropbox/any cloud service folder (public) where you should store the images (You need
+% not submit the images in the above mentioned .zip file, just store them and give us the link).
+
+\begin{document}
+\begin{titlepage}
+\begin{center}
+\line(1,0){300}\\
+[0.25in]
+\huge{\bfseries Dataset Documentation}\\
+[0.25in]
+\line(1,0){300}\\
+[1.25in]
+Raphael Elvis Rozario ID: 150104121\\
+K M Arefeen Sultan ID: 150104111\\
+Rakib Hossain Ayon ID: 150104120\\
+Radwan Rahman ID: 150104123\\
+[0.25in]
+April 2019
+\end{center}
+\end{titlepage}
+\section{Introduction}
+In this dataset\cite{Chars74k:2009}, symbols used in both English and Kannada are available. In the English language, Latin script (excluding accents) and Hindu-Arabic numerals are used. For simplicity it is called the "English" characters set. Dataset consists of:
+\section{Dataset Description}
+The detailed description about the dataset is stated below.
+\begin{itemize}
+  \item $64$ classes ($0-9$, $A-Z$, $a-z$)
+  \item $7705$ characters obtained from natural images
+  \item $3410$ hand drawn characters using a tablet PC
+  \item $62992$ synthesised characters from computer fonts
+\end{itemize}
+This gives a total of over $74$K images (which explains the name of the dataset).
+We only uses $64$ classes ($0-9$, $A-Z$, $a-z$) for our project.
+Each file has a data structure "list" with these elements:
+\begin{enumerate}
+\item ALLlabels: class label for each sample
+\item ALLnames: sub-directory and name of the image for each sample
+\item classlabels: set of labels (classes) in this dataset, coded numerically, e.g. $10=A$, $11=B$, ..., $64=z$
+\item classnames: strings of the directories where samples of each class are stored
+\item NUMclasses: total number of classes in this dataset
+\item TRNind: indexes of the training samples. If $20$ splits are used, this is a matrix of $N$ train samples $X$ $20$
+\item TSTind: indexes of the test samples. If $20$ splits are used, this is a matrix of $N$ test samples $X 20$
+\item VALind: indexes of the validation samples. If $20$ splits are used, this is a matrix of $N$ validation samples $X 20$
+\item TXNind: indexes of the texton samples, i.e., samples used to build the vocabulary with the bag-of-visual-words method. If $20$ splits are used, this is a matrix of $N$ texton samples $X 20$
+\end{enumerate}
+
+\bibliography{ref}
+\bibliographystyle{acm}
+\end{document}
