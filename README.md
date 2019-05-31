@@ -60,13 +60,6 @@ Table 2: Using different pre-processing techniques using KNN
 From Table 3 we can see that, using smoothing filter and Histogram Equalization, we achieved the highest
 accuracy of classifier KNN’s recognition.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-88nc{font-weight:bold;border-color:inherit;text-align:center}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
