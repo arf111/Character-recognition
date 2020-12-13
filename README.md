@@ -1,4 +1,4 @@
-# Text-recognition-DIP-Lab
+# Character Recognition
 ## Problem Description
 **Text Recognition** is the problem of recognizing text in an image. Many problems need to be solved in order to read text in natural images includes text localization, character and word segmentation, recognition, etc. In our work, we have focused on recognition of individual characters in such images.
 
